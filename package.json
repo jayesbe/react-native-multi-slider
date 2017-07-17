@@ -26,6 +26,9 @@
      "react-native": "*",
      "react": "*"
    },
+   "dependencies": {
+     "logspace": "^1.0.1"
+   },
    "devDependencies": {
      "babel-eslint": "7.2.3",
      "eslint": "3.19.0",

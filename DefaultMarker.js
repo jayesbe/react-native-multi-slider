@@ -1,6 +1,9 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import { View, StyleSheet, Platform, TouchableHighlight, ViewPropTypes } from 'react-native';
+import { View, StyleSheet, Platform, TouchableHighlight } from 'react-native';
+
+const ViewPropTypes = require('react-native').ViewPropTypes || View.propTypes;
 
 export default class DefaultMarker extends React.Component {
   static propTypes = {
@@ -8,6 +11,8 @@ export default class DefaultMarker extends React.Component {
     pressedMarkerStyle: ViewPropTypes.style,
     markerStyle: ViewPropTypes.style,
     enabled: PropTypes.bool,
+    valuePrefix: PropTypes.string,
+    valueSuffix: PropTypes.string,
   };
 
   render() {

@@ -1,6 +1,13 @@
-# 0.0.9 (to be released)
+# 0.0.10
+
+BREAKING: Updated PropTypes imports for React 16
+
+# 0.0.9
 
 BREAKING: Updated ViewProps imports for 0.44 release
+Enable disable Slider through props
+Removed unused setState
+Various bugfixes
 
 # 0.0.8
 
